@@ -299,7 +299,7 @@ ul.task-list input[type="checkbox"] {
     &:hover {
       color:  #ffffff;/*ar(--global-hover-color);*/
       background-color: #6c757d;/*var(--global-text-color);*/
-      border-color: /*var(--global-hover-color);*/
+      border-color: #495057; /*var(--global-hover-color);*/
       transform: translateY(-2px);
     }
   }
