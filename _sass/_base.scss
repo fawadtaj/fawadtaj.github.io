@@ -289,19 +289,31 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    background-color: transparent;
+    border: 2px solid var(--global-text-color);
+    border-radius: 50px; // This makes it round
+    padding: 8px 16px;
+    margin: 0 4px;
+    transition: all 0.3s ease;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #ffffff; /*ar(--global-hover-color);*/
+      background-color: #6c757d; /*var(--global-text-color);*/
+      border-color: #495057; /*var(--global-hover-color);*/
+      transform: translateY(-2px);
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
-    background-color: inherit;
+    background-color: #6c757d; /*var(--global-theme-color);*/
+    border-color: #495057; /*var(--global-theme-color);*/
+    color: white;
     font-weight: bolder;
-    color: var(--global-theme-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      background-color: #495057; /*var(--global-hover-color);*/
+      border-color: #343a40; /*var(--global-hover-color);*/
+      color: white;
     }
   }
 
@@ -734,9 +746,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;

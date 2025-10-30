@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Data Science & Visualization
+permalink: /data_science/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
