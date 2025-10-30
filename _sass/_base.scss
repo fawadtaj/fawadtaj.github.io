@@ -277,7 +277,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .navbar.navbar-light {
-   a {
+  a {
     &:hover {
       text-decoration: none;
     }
@@ -297,8 +297,8 @@ ul.task-list input[type="checkbox"] {
     transition: all 0.3s ease;
 
     &:hover {
-      color:  #ffffff;/*ar(--global-hover-color);*/
-      background-color: #6c757d;/*var(--global-text-color);*/
+      color: #ffffff; /*ar(--global-hover-color);*/
+      background-color: #6c757d; /*var(--global-text-color);*/
       border-color: #495057; /*var(--global-hover-color);*/
       transform: translateY(-2px);
     }
@@ -311,7 +311,7 @@ ul.task-list input[type="checkbox"] {
     font-weight: bolder;
 
     &:hover {
-      background-color: #495057;  /*var(--global-hover-color);*/
+      background-color: #495057; /*var(--global-hover-color);*/
       border-color: #343a40; /*var(--global-hover-color);*/
       color: white;
     }
@@ -354,7 +354,6 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
-
 
 .navbar-toggler {
   .icon-bar {
