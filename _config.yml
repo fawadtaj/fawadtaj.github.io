@@ -200,7 +200,10 @@ exclude:
   - _news/
   - _books/
   - assets/jupyter/
-  -_pages/projects.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/dropdowns.md
 keep_files:
   - CNAME
   - .nojekyll
